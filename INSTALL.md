@@ -32,7 +32,7 @@ sudo docker run -d -p 5701:8080 -p 8100:8100 --name=webapp --privileged=true --r
 -e "SPRING_PROFILES_ACTIVE=arm" \
 -v [你的路径]/env.properties:/env.properties:rw \
 -v [你的路径]/adbot:/adbot \
-rubyangxg/jd-qinglong
+rubyangxg/jd-qinglong:arm
 ```
 例子：**_注意这是1条命令，全部复制执行，注意\后面不要有空格_**，
 ```
